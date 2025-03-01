@@ -8,4 +8,13 @@ Turning on Proxy in macOS is not that easy (maybe I'm just lazy to go to setting
 
 ![Screenshot 2025-03-01 at 11 14 52 PM](https://github.com/user-attachments/assets/98a84cf2-d744-4d20-a252-37e26309ff01)
 
-## Not anymore...😏
+### Not anymore...😏
+
+## Usage
+
+Make sure you have flutter installed in your Mac. for more visit: flutter.dev
+
+After building your app, You can locate the macosproxy.app file in the build directory. Path: `<project_folder>/build/macos/Build/Products/Debug/App.framework/macosproxy.app`
+Move that file into Applications. And you're ready to go!
+
+![Frame 1 (2)](https://github.com/user-attachments/assets/571c3905-59a4-4e27-903f-2031b8de39f6)
